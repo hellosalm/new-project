@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* layot start here  */
+
+
+
+/* headre start here  */
+header{
+    background-color: #00779c;
+    padding: 0.6rem 0rem 
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0rem;
+    margin-left: 5.9rem
+}
+.navbar ul li {
+    margin-right: 2rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+
+.navbar .span-icon{
+    margin-left: 47rem; 
+    font-size: 2rem;
+    color: white;
+   display: none;
+    position: absolute;
+    text-align: 5px;
+    top: 5px;
+    right: -52px
+}
+.navbar ul li a:hover{
+    /* color: #0097c0; */
+   
+    background: linear-gradient(215deg, #0097c0, #00b39a);
+}
+
+.icon{
+    display: flex;
+}
+.icon-img{
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+.icon-img img{
+    width: 20%;
+}
+.logo{
+    cursor: pointer;
+}
+.logo span{
+    color: white;
+    font-size: 1.4rem;
+    font-family: cursive;
+    
+}
+.section-icon{
+    margin-right: 1.5rem;
+    color: white;
+    padding: 5px 16px;
+    box-shadow: 0px 0px 0px #ccaeae;
+    background: linear-gradient(215deg, #0097c0, #00b39a);
+    border-radius: 22px ;
+    cursor: pointer;
+}
+.icon-img>div>span{
+    color: white;
+}
+
+.icon-img .div i{
+    color: white;
+}
+.icon-img .div{
+    position: absolute;
+    top: 3px;
+    right: 0rem 
+}
+
+
+.banner{
+    background-image: url(../imaage/banner\ 3.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 87vh; */
+    padding-bottom: 8rem;
+    color: white;
+    padding-top: 8rem;
+    /* text-align: center; */
+}
+.welcome-div{
+    margin-left: 5rem;
+}
+.welcome-div h3{
+    font-size: 2.2rem;
+    font-family: sans-serif;
+
+    text-align: justify;
+
+}
+.welcome-div h1{
+    font-size: 5.4rem;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.welcome-div p{
+    text-align: justify;
+    font-family: sans-serif
+}
+.welcome-div button{
+    border: none;
+    background: linear-gradient(215deg, #7200fc, #a700db);
+    padding: 7px;
+    border-radius: 32px;
+    margin-right: 19rem;
+}
+.welcome-div button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.button{
+    background-color: #9c53f3;
+    padding: 0rem 0rem 0rem 0rem;
+    width: 47%;
+    border-radius: 22px;
+    margin-left: 6rem;
+    
+}
+.button img{
+    width: 22%;
+    margin-right: 1rem;
+
+}
+.button>span{
+    margin-right: 1rem;
+}
+.button .span{
+    background-color: #06142f;
+   margin-left: 4px;
+    padding: 13px 72px 18px 0px;
+    border-radius: 26px;
+
+}
+
+.button span>i{
+    background: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 17px;
+}
+
+.video-section{
+    padding: 5rem 0rem;
+    background-color: #000e34;
+}
+
+.project h4{
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+    color: white;
+
+}
+.view-all h4{
+    font-family: sans-serif;
+    margin-bottom: 3rem;
+    color: white;
+
+font-size: 15px;
+background: linear-gradient(215deg, #7200fc, #a700db);
+    width: 25%;
+    padding: 10px;
+    border-radius: 21px;
+    margin-left: 24rem 
+}
+
+.video{
+    background: #0077ff;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+.video img{
+    border-radius: 10px;
+}
+.video>div{
+    margin-top: 0.6rem;
+}
+.video>div>i{
+    background: #004a9e;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+.video>div>input{
+    border: none;
+    text-align: center;
+    background-color: #005bd1;
+    border-radius: 12px;
+    color: white;
+}
+
+
+.laptop{
+    background: linear-gradient(215deg, #031139, #344985);
+    padding: 5rem 0rem;
+
+}
+.content-laptop{
+    margin-top: 6rem;
+    font-family: sans-serif;
+}
+.content-laptop h5,p{
+    color: white;
+}
+.content-laptop h2{
+    color: #00779c;
+}
+
+.join-us{
+    background: linear-gradient(215deg, #706f96, #344197);
+    
+    padding: 5rem 0rem 
+}
+.content-join{
+    margin-top: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+.content-join button{
+    padding: 7px;
+    border: none;
+    border-radius: 26px;
+    
+    background: linear-gradient(215deg, #8f00ea, #c600c7);
+    color: white;
+
+}
+.join-img{
+    margin-left: 5rem;
+    border: 21px solid #3cbadd;
+    border-radius: 12px;
+}
+.join-img img{
+    width: 100%;
+   
+}
+
+footer{
+    background: #00113e;
+    padding: 1rem 
+}
+.footer-one ul{
+    display: flex;
+    list-style: none;
+
+}
+.footer-one ul li {
+    margin-right: 10px;
+}
+.footer-one ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.footer-three{
+    margin-left: 13rem;
+}
+.footer-three h4{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+/* responsive strt here  */
+
+@media screen and (max-width:1200px) {
+.navbar ul{
+    display: none;
+}.navbar .span-icon{
+    display: block;
+}
+}
